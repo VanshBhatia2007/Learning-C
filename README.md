@@ -28,7 +28,8 @@ This repo keeps me accountable and helps me track my daily progress while learni
 |-------|---------------------------------|----------------|
 | 1     | Syntax                          | [syntax](Topics/hello.c) |
 | 2     | Variables & Data Types          | [variables](Topics/variables.c) |
-
+| 3     | Taking Input          | [taking input](Topics/taking_input.c) |
+| 4     | Addition          | [Addition](Topics/addition.c) |
 
 > 📝 *I'll keep updating this table as I learn more.*
 
