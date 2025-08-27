@@ -30,6 +30,7 @@ This repo keeps me accountable and helps me track my daily progress while learni
 | 2     | Variables & Data Types          | [variables](Topics/variables.c) |
 | 3     | Taking Input          | [taking input](Topics/taking_input.c) |
 | 4     | Addition          | [Addition](Topics/addition.c) |
+| 5     | Power          | [Power](Topics/power.c) |
 
 > 📝 *I'll keep updating this table as I learn more.*
 
