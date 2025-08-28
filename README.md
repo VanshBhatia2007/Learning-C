@@ -31,6 +31,7 @@ This repo keeps me accountable and helps me track my daily progress while learni
 | 3     | Taking Input          | [taking input](Topics/taking_input.c) |
 | 4     | Addition          | [Addition](Topics/addition.c) |
 | 5     | Power          | [Power](Topics/power.c) |
+| 5     | Relational Opreator          | [Relational Opreator](Topics/relational_opreators.c) |
 
 > 📝 *I'll keep updating this table as I learn more.*
 
