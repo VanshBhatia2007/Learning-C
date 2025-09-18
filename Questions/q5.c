@@ -1,15 +1,10 @@
-//Write a C program to check whether a number is even or odd.
+// Write a program to convert temperature from celsius to farehnit by taking input from user .
 #include <stdio.h>
 int main() {
-    int number;
-    printf("Enter an integer: ");
-    scanf("%d", &number);
-
-    if (number % 2 == 0) {
-        printf("%d is an even number.\n", number);
-    } else {
-        printf("%d is an odd number.\n", number);
-    }
-
+    float celsius, fahrenheit;
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &celsius);
+    fahrenheit = (celsius * 9/5) + 32;
+    printf("%.2f Celsius = %.2f Fahrenheit\n", celsius, fahrenheit);
     return 0;
 }

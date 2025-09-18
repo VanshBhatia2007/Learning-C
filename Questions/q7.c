@@ -1,14 +1,16 @@
-//Write a C program to check whether a character is alphabet or not.
+// Write a C program to find maximum between two numbers.
 #include <stdio.h>
 int main() {
-    char ch;
-    printf("Enter a character: ");
-    scanf("%c", &ch);
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
 
-    if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
-        printf("%c is an alphabet.\n", ch);
+    if (a > b) {
+        printf("%d is the maximum number.\n", a);
+    } else if (b > a) {
+        printf("%d is the maximum number.\n", b);
     } else {
-        printf("%c is not an alphabet.\n", ch);
+        printf("Both numbers are equal.\n");
     }
 
     return 0;

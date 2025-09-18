@@ -1,36 +1,15 @@
-/*Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
-
- Basic Salary <= 10000 : HRA = 20%, DA = 80%
-
- Basic Salary <= 20000 : HRA = 25%, DA = 90%
-
- Basic Salary > 20000 : HRA = 30%, DA = 95%
-*/
+// Write a C program to check whether a number is divisible by 5 and 11 or not.
 #include <stdio.h>
 int main() {
-    float basicSalary, hra, da, grossSalary;
+    int number;
+    printf("Enter an integer: ");
+    scanf("%d", &number);
 
-    
-    printf("Enter the basic salary of the employee: ");
-    scanf("%f", &basicSalary);
-
-    
-    if (basicSalary <= 10000) {
-        hra = 0.20 * basicSalary; // or you can write like this hra= basicSalary*20/100;
-        da = 0.80 * basicSalary;
-    } else if (basicSalary <= 20000) {
-        hra = 0.25 * basicSalary;
-        da = 0.90 * basicSalary;
+    if (number % 5 == 0 && number % 11 == 0) {
+        printf("%d is divisible by both 5 and 11.\n", number);
     } else {
-        hra = 0.30 * basicSalary;
-        da = 0.95 * basicSalary;
+        printf("%d is not divisible by both 5 and 11.\n", number);
     }
-
-    
-    grossSalary = basicSalary + hra + da;
-
-    
-    printf("Gross Salary: %.2f\n", grossSalary);
 
     return 0;
 }

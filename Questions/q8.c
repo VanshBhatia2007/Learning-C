@@ -1,20 +1,19 @@
-//Write a C program to input any alphabet and check whether it is vowel or consonant.
+//Write a C program to find maximum between three numbers.
 #include <stdio.h>
 int main() {
-    char ch;
-    printf("Enter an alphabet: ");
-    scanf("%c", &ch);
+    int num1, num2, num3;
 
     
-    if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
-        ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-        printf("%c is a vowel.\n", ch);
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
 
-    } else if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
-        printf("%c is a consonant.\n", ch);
-        
+    
+    if (num1 >= num2 && num1 >= num3) {
+        printf("The maximum number is: %d\n", num1);
+    } else if (num2 >= num1 && num2 >= num3) {
+        printf("The maximum number is: %d\n", num2);
     } else {
-        printf("%c is not an alphabet.\n", ch);
+        printf("The maximum number is: %d\n", num3);
     }
 
     return 0;

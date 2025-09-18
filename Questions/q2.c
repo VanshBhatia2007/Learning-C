@@ -1,20 +1,12 @@
-//Write a C program to find maximum between three numbers.
+// WAP to show the usage of int & float.
 #include <stdio.h>
+
 int main() {
-    int num1, num2, num3;
+    int a = 5;
+    float b = 3.14;
 
-    
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &num1, &num2, &num3);
-
-    
-    if (num1 >= num2 && num1 >= num3) {
-        printf("The maximum number is: %d\n", num1);
-    } else if (num2 >= num1 && num2 >= num3) {
-        printf("The maximum number is: %d\n", num2);
-    } else {
-        printf("The maximum number is: %d\n", num3);
-    }
+    printf("Integer: %d\n", a);
+    printf("Float: %.2f\n", b);
 
     return 0;
 }

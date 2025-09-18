@@ -1,15 +1,15 @@
-//Write a C program to check whether a year is leap year or not.
+// Write a program to show the concept of arithmetic operators
 #include <stdio.h>
 int main() {
-    int year;
-    printf("Enter a year: ");
-    scanf("%d", &year);
+    int a, b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
 
-    if (year % 4 == 0){
-        printf("%d is a leap year.\n", year);
-    } else {
-        printf("%d is not a leap year.\n", year);
-    }
+    printf("Addition: %d + %d = %d\n", a, b, a + b);
+    printf("Subtraction: %d - %d = %d\n", a, b, a - b);
+    printf("Multiplication: %d * %d = %d\n", a, b, a * b);
+    printf("Division: %d / %d = %.2f\n", a, b, (float)a / b);
+    printf("Modulus: %d %% %d = %d\n", a, b, a % b);
 
     return 0;
 }

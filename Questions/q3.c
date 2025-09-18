@@ -1,17 +1,11 @@
-//Write a C program to check whether a no is negative, positive or zero.
+// WAP to find the subtraction of two integers.
 #include <stdio.h>
+
 int main() {
-    int no;
-    printf("Enter an integer: ");
-    scanf("%d", &no);
+    int a = 10;
+    int b = 5;
+    int result = a - b;
 
-    if (no > 0) {
-        printf("%d is a positive no.\n", no);
-    } else if (no < 0) {
-        printf("%d is a negative no.\n", no);
-    } else {
-        printf("The no is zero.\n");
-    }
-
+    printf("Subtraction of %d and %d is: %d\n", a, b, result);
     return 0;
 }
