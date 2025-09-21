@@ -31,5 +31,6 @@ int main(){
             break;
         default:
             printf("Error! operator is not correct");
-            break;    }
+            break;    
+        }
 }
