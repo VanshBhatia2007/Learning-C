@@ -12,4 +12,4 @@ int main() {
     
     printf("Factorial of %d is: %d\n", N, factorial);
     return 0;
-}
+} 
