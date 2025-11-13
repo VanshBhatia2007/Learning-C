@@ -4,13 +4,14 @@
 #define NUM_STUDENTS 50
 int main() {
     int marks[NUM_STUDENTS];
-    int sum = 0;
+    int sum = 0,in_marks=0;
     float average;
-
+    printf("Enter marks for student :" );
+    scanf("%d", &in_marks);
     // Input marks for each student
     for(int i = 0; i < NUM_STUDENTS; i++) {
-        printf("Enter marks for student %d: ", i + 1);
-        scanf("%d", &marks[i]);
+        marks[i] = in_marks;
+        in_marks++;
         sum += marks[i];
     }
 

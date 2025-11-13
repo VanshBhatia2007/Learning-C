@@ -15,3 +15,17 @@ int isPalindrome(char str[]) {
     }
     return 1; // Is a palindrome
 }
+int main() {
+    char str[MAX_LENGTH];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+    // Remove newline character if present
+    str[strcspn(str, "\n")] = 0;
+
+    if(isPalindrome(str)) {
+        printf("The string \"%s\" is a palindrome.\n", str);
+    } else {
+        printf("The string \"%s\" is not a palindrome.\n", str);
+    }
+    return 0;
+}
